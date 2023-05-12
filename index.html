@@ -25,12 +25,17 @@
         <div class="bar bar3"></div>
 
         <ul class="mainMenuOptions">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Github</a></li>
-          <li><a href="">Licensing</a></li>
-          <li><a href="">User Manual</a></li>
-          <li><a href="">Developer Manual</a></li>
+          <a href="./Docs/ReadMe/" target="_blank"><li>About</li></a>
+          <a href="https://github.com/gridlock-simulator" target="_blank"
+            ><li>Github</li></a
+          >
+          <a href="./Docs/Licensing/LICENSE.html"><li>Licensing</li></a>
+          <a href="./Test_Folder/coming_soon/index.html"
+            ><li>User Manual</li></a
+          >
+          <a href="./out/index.html" target="_blank"
+            ><li>Developer Manual</li></a
+          >
         </ul>
       </nav>
       <img
@@ -64,7 +69,15 @@
         </div>
         <ul class="mapList flex">
           <!-----  DUMMY DATA  ------>
-          <li class="map flex column" onclick="pageRedirect_OffRamp()">
+          <li class="map flex column" onclick="redirectToCustomMap()">
+            <h3>CA-78 x Center City</h3>
+            <img
+              draggable="false"
+              src="./Assets/Imgs/Map_Previews/78.png"
+              alt="On Ramp Preview"
+            />
+          </li>
+          <li class="map flex column" onclick="redirectToCustomMap()">
             <h3>On Ramp</h3>
             <img
               draggable="false"
@@ -72,37 +85,57 @@
               alt="On Ramp Preview"
             />
           </li>
-          <li class="map flex column" onclick="pageRedirect_OffRamp()">
-            <h3>On Ramp</h3>
+          <li class="map flex column" onclick="redirectToCustomMap()">
+            <h3>Multi Intersect</h3>
             <img
               draggable="false"
-              src="./Assets/Imgs/Map_Previews/onRamp.png"
+              src="./Assets/Imgs/Map_Previews/temp1.PNG"
               alt="On Ramp Preview"
             />
           </li>
-          <li class="map flex column" onclick="pageRedirect_OffRamp()">
-            <h3>On Ramp</h3>
+          <li class="map flex column" onclick="redirectToCustomMap()">
+            <h3>Yielding Intersection</h3>
             <img
               draggable="false"
-              src="./Assets/Imgs/Map_Previews/onRamp.png"
+              src="./Assets/Imgs/Map_Previews/temp2.PNG"
               alt="On Ramp Preview"
             />
           </li>
-          <li class="map flex column" onclick="pageRedirect_OffRamp()">
-            <h3>On Ramp</h3>
+          <li class="map flex column" onclick="redirectToCustomMap()">
+            <h3>Roundabout Yielding Intersection</h3>
             <img
               draggable="false"
-              src="./Assets/Imgs/Map_Previews/onRamp.png"
+              src="./Assets/Imgs/Map_Previews/temp3.jpg"
               alt="On Ramp Preview"
             />
           </li>
-          <li class="map flex column" onclick="pageRedirect_OffRamp()">
-            <h3>On Ramp</h3>
+          <li class="map flex column" onclick="redirectToCustomMap()">
+            <h3>Roundabout Intersection</h3>
             <img
               draggable="false"
-              src="./Assets/Imgs/Map_Previews/onRamp.png"
+              src="./Assets/Imgs/Map_Previews/temp4.jpg"
               alt="On Ramp Preview"
             />
+          </li>
+          <li class="map flex column" onclick="redirectToCustomMap()">
+            <h3>Messy Road</h3>
+            <img
+              draggable="false"
+              src="./Assets/Imgs/Map_Previews/temp5.jpg"
+              alt="On Ramp Preview"
+            />
+          </li>
+          <li class="map flex column">
+            <h3>Legacy Project</h3>
+            <a
+              href="https://traffic-simulation.de/roadworks.html"
+              target="_blank"
+            >
+              <img
+                draggable="false"
+                src="./Assets/Imgs/Map_Previews/legacy.PNG"
+                alt="On Ramp Preview"
+            /></a>
           </li>
           <!--  END OF DUMMY DATA  -->
         </ul>

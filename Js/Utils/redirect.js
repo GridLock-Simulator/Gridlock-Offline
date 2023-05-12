@@ -38,3 +38,13 @@ function pageRedirect_Intersection() {
 function pageRedirect_OnRampBaWue() {
   window.location.href = "../../Maps/OnRamp_BaWue/index.html";
 }
+
+function pageRedirect_OnRampBaWue() {
+  window.location.href = "../../Maps/OnRamp_BaWue/index.html";
+}
+
+function redirectToHome() {
+  window.location.href = "../../index.html";
+}
+
+//redirectToLegacy
